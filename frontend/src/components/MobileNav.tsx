@@ -15,7 +15,7 @@ const MobileNav = () => {
         </SheetTitle>
         <Separator />
         <SheetDescription className="flex">
-        <button className="flex-1 font-bold bg-orange-500">Log In</button>
+        <button className="flex-1 p-3 text-white bg-orange-500 rounded-lg font-bold">Log In</button>
         </SheetDescription>
       </SheetContent>
     </Sheet>
