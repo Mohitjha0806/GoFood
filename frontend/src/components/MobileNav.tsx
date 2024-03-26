@@ -1,5 +1,4 @@
-import { Menu } from "lucide-react";
-import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "./ui/sheet";
+import { Sheet, SheetContent, SheetTitle, SheetTrigger, SheetDescription } from "./ui/sheet";
 import { Menu } from "lucide-react";
 import { Separator } from "./ui/separator";
 
@@ -10,7 +9,7 @@ const MobileNav = () => {
       <SheetTrigger>
         <Menu className="text-orange-500" />
       </SheetTrigger>
-      <SheetContent>
+      <SheetContent className="space-y-3">
         <SheetTitle>
           <span>Welcome to GoFood.com !</span>
         </SheetTitle>
