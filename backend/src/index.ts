@@ -7,7 +7,7 @@ app.use(express.json())
 app.use(cors())
 
 app.get("/test", async(req: Request, res: Response) =>{
-res.json({message: "Hello! "})
+res.json({message: "Hello GoFood! "})
 })
 
 app.listen(7000, ()=>{
